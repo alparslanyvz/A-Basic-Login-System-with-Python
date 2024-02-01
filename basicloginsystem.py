@@ -13,8 +13,8 @@ from customtkinter import *
 class loginSystem(): # Class
     def __init__(self) -> None:
         # Login information
-        self.username = "admin"
-        self.password = "admin123"
+        self.username = "admin" #Username
+        self.password = "admin123" #Password
         #--------------------------------------------------------------
         self.mainFrameSize = "500x250+400+200" # width x height + x + y
         self.mainFrameTitle = "Login System"   # Frame title
